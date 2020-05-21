@@ -30,4 +30,4 @@
 
 ###Wireframe
 
-![Backend]('./screenshots/nodb-project')
+![Backend]'./screenshots/nodb-project.png'
