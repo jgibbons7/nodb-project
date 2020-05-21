@@ -1,4 +1,5 @@
 #MTG Rage Tracker
+
 ##Application concept
   - This app tracks MTG stats amongst "friends."
   - This is will have full CRUD so all can use it.
