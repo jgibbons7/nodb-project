@@ -30,4 +30,5 @@
 
 ###Wireframe
 
-![Backend]'./screenshots/nodb-project.png'
+![Backend](https://github.com/jgibbons7/nodb-project/blob/master/src/screenshots/nodb-project.png)
+
