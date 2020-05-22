@@ -31,7 +31,7 @@
 
 ### Wireframe
 
-![Backend](https://github.com/jgibbons7/nodb-project/blob/master/src/screenshots/updated-flow.png)
+![Backend](https://github.com/jgibbons7/nodb-project/blob/master/src/screenshots/updated flow.png)
 
 ![Wireframe](https://github.com/jgibbons7/nodb-project/blob/master/src/screenshots/updated-wireframe.png)
 
