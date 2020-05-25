@@ -56,8 +56,9 @@ class App extends Component {
   updateRage(id) {
     let stateCopy = this.state.players
     const index = stateCopy.findIndex((element) => element.id === +id)
+    console.log(id)
     stateCopy[index].rage.push(stateCopy[index].input)
-    stateCopy[index].avg = Math.floor((this.state.players[id].rage.reduce((x, y) => x + y, 0) / this.state.players[index].rage.length))
+    stateCopy[index].avg = Math.floor((this.state.players[index].rage.reduce((x, y) => x + y, 0) / this.state.players[index].rage.length))
 console.log(stateCopy)
     this.setState({
      players: stateCopy
@@ -96,8 +97,8 @@ console.log(stateCopy)
       this.setState({
         players: res.data
       })
+      console.log(this.state)
     })
-    console.log(this.state)
 }
 
 
@@ -140,7 +141,7 @@ console.log(stateCopy)
       
     return (
     <div>
-      <Header className='header'/>
+      <Header className='header' />
       <PlayerUpdater addPlayer={this.addPlayer} />
       <div>
         {player}

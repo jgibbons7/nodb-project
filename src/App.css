@@ -1,10 +1,16 @@
 
-
+html {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
 body {
   text-align: center;
   background-image: url(https://static.wixstatic.com/media/038283_99861f89259047018a79ddcf82c853bf~mv2.jpg/v1/fill/w_894,h_894,al_c,q_90/038283_99861f89259047018a79ddcf82c853bf~mv2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1;
 }
 
 .name {
@@ -23,10 +29,24 @@ body {
 .header {
   color: rgb(0, 0, 0);
   font-size: 60px;
+  width: 60vw;
+  justify-content: center;
+  text-shadow: 2px 5px 5px white;
+  
 }
 
+
 #main {
-  background-color: rgba(168, 194, 243, 0.589);
+  background-color: rgba(163, 234, 255, 0.404);
+  display: flex;
+  margin-top: 80px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+
+#mainH {
   display: flex;
   margin-top: 80px;
   margin-left: 15vw;
@@ -67,14 +87,20 @@ body {
 
 .crud {
   border-radius: 10px;
-
+  
 }
 
 .update {
   background-color: white;
-  height: 20px
+  height: 20px;
+  margin-bottom: 10px;
+  width: 59%;
 }
 
 .btn:hover {
   background-color: white;
+}
+
+h2 {
+  text-shadow: 2px 5px 5px white;
 }

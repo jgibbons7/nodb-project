@@ -42,6 +42,7 @@ module.exports = {
   }
     playerData.push(newPlayer)
     pid++
+    console.log(playerData)
     res.status(200).send(playerData)
   },
 
